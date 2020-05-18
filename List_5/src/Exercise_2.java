@@ -8,7 +8,7 @@ public class Exercise_2 {
 		int numbers = 100;
 		int sumOdd = 0, sumEven = 0;
 		
-		for(int i = 0; i < numbers; i++){
+		for(int i = 0; i <= numbers; i++){
 			if(i % 2 == 0)
 				sumEven += i;
 			else
