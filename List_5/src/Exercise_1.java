@@ -9,7 +9,9 @@ public class Exercise_1 {
 		
 		for(int i = 0; i <= numbers; i++) 
 			if(i % 2 == 0) 
-			    System.out.println(i);		
+			    System.out.println("Even: " + i);
+			else
+				System.out.println("Odd: " + i);
 		
 		scanner.close();
 	}
